@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #1d1d1d;
+    color: #f1f1f1;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #292929;
+    opacity: 0.7;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+
+main section div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#contador {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.clicou {
+    background: #7440b1;
+}
+
